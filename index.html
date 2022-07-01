@@ -16,7 +16,7 @@
 <body>
     <header>
         <img src="assets/Logo.svg" alt="Logo">
-        <input class="search-box" type="text" placeholder="Busque por algo">
+        <input class="search" type="text" placeholder="Busque por algo">
         <section class="profile-section">
             <div class="profile-picture"></div>
             <span class="nome">Harry</span>
@@ -38,8 +38,26 @@
             <span class="sidebar__button-text">Comunidade</span>
         </a>
     </section>
-    <section class="content">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, obcaecati! Aut accusantium libero fugit! Consequatur, reprehenderit tempora amet harum unde inventore praesentium accusantium voluptates eos.</p>
+        <div class="project-background"></div>
+
+        <section class="project-info">
+            <span class="txt-sidebar">Seu Projeto</span>
+            <input type="text" placeholder="Nome do seu projeto">
+            <input type="text" placeholder="Descrição do seu projeto">
+
+            <span class="txt-sidebar">Personalização</span>
+            <select name="Linguagem" id="">
+                <option value="Javascript">Javascript</option>
+                <option value="React">React</option>
+            </select>
+            <select class="select__color" name="Color" id="">
+                <option value="blue">
+                    <div style="background-color: blue;"></div>
+                </option>
+                <option value="green"><div style="background-color: red;"></div></option>
+                <option value="pink">React</option>
+                <option value="yellow">React</option>
+            </select>
     </section>
 
 </body>
