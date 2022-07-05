@@ -188,3 +188,9 @@ header > img {
     padding: 1rem;
     padding-top: 1.5rem;
 }
+
+.button__add-highlight {
+    background-color: rgba(80, 129, 251, 0.08);
+    color: var(--branco);
+    margin-top: 2rem;
+}
